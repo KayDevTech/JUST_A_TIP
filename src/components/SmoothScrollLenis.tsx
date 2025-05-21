@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Hero from './Hero'
+import Schedule from './Schedule'
 
 
 function SmoothScrollLenis() {
@@ -8,7 +9,7 @@ function SmoothScrollLenis() {
     <div>
         <Navbar/>
         <Hero/>
-        <div className='h-screen'></div>
+        <Schedule/>
     </div>
   )
 }
