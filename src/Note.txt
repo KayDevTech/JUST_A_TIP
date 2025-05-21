@@ -1,0 +1,19 @@
+
+
+******************************     The whole Idea of sticky scroll     ******************************
+
+
+
+import React from 'react'
+
+function Hero() {
+  return (
+    <div className='h-[300vh] bg-pink-500 relative'>
+        <div className='h-[50vh] bg-black sticky top-0'></div>
+    </div>
+  )
+}
+
+export default Hero
+
+
